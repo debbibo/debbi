@@ -1,0 +1,26 @@
+html, body {
+    text-align: center;
+    background-color: lightcyan;
+
+}
+.card{
+display: inline-block;
+border: 1px solid black;
+direction: rtl;
+margin: 5px;
+}
+.card > img {
+    height: 160px;
+}
+.carousel-item p, h5 {
+    direction: rtl;
+    font-weight: bold;
+    color: lightcyan;
+    text-shadow: 10px 10px 10px black;
+}
+.form-group {
+    direction: rtl;
+}
+#exampleModal {
+direction: rtl;
+}
